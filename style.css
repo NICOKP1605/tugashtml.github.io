@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .foto {
+    width: 200px;
+    height: 250px;
+    border-radius: 10%;
+    margin: 20px;
+  }
+  

@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>@nicolas_krisna.p - 71231019 - Personal Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>      
+<body>
+  <div class="container">
+    <img src="foto.jpg" alt="Foto Diri" class="foto" width="200" height="250" align="left">
+    <h1>About Me</h1>
+    <p>1. @nicolas_krisna.p
+    <br>2. pekalongan, jawa tengah, indonesia
+    <br>3. universitas duta wacana.</p>
+
+    <h2>Skillset Pemrograman</h2>
+    <p>1. HTML
+    <br>2. CSS
+    <br>3. C
+    <br>4. Javascript
+    <br>5. Python</p>
+  
+    <button onclick="gantiWarna()">Ganti Warna Background</button>
+  </div>
+  <script>
+    function gantiWarna() {
+      var warna = ["red", "blue", "green", "white"];
+      var acak = Math.floor(Math.random() * warna.length);
+      document.body.style.backgroundColor = warna[acak];
+    }
+  </script>
+</body>
+</html>
